@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\App.xaml
-3154106317
+51484037088
 
-6-1138051652
+14772600142
 21337373215
-MainWindow.xaml;Styles.xaml;View\UserControls\TypeBox.xaml;
+MainWindow.xaml;Styles.xaml;View\UserControls\Inventory.xaml;View\UserControls\InventoryBtn.xaml;View\UserControls\LootPanel.xaml;
 
 False
 

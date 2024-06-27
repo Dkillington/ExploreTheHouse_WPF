@@ -24,7 +24,7 @@ namespace WPFTutorial
         public bool repeats = true;
 
 
-        public Sound(SoundEnums _name, bool _repeats)
+        public Sound(SoundEnums _name, bool _repeats = true)
         {
             name = _name;
             repeats = _repeats;
@@ -69,10 +69,22 @@ namespace WPFTutorial
         }
     }
 
+    // When you add a sound file to 'audio', make sure it is a wav and spelled exactly like you put it here
     public enum SoundEnums
     {
-        rumble,
-        gong,
+        none, // Basically used as a NULL
+        coldWind,
+        creepyWind,
+        thunder,
+        thunder1,
+        thunder2,
+        doorslam,
+        creepyInside,
+
+        // Unused Yet
+        lab1,
+        lab2,
+
     }
 
 }

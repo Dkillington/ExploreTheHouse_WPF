@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPFTutorial"
         xmlns:userControls="clr-namespace:WPFTutorial.View.UserControls"
         mc:Ignorable="d"
-        Title="Explore the house" Height="1000" Width="1000">
+        Title="Explore The House" Height="1024" Width="1024">
 
     <!-- Target Styles file -->
     <Window.Resources>
@@ -20,20 +20,34 @@
 
     <!-- Main Game Screen -->
     <Grid Name = "MainGrid">
-        <Image Name = "screenImg" Source="pics/front.jpg" Stretch="Fill"/> <!--Background-->
+        <Image Name = "screenImg" Source= "backgrounds/front.jpg" Panel.ZIndex="0" Stretch="Fill"/> <!--Background-->
+        <userControls:InventoryBtn x:Name="invBtn" Margin="919,912,38,14" Panel.ZIndex="1"  Visibility="Visible"></userControls:InventoryBtn>
+        <userControls:LootPanel x:Name="lootPanel" Margin="234,265,230,211" Panel.ZIndex="2" Visibility="Hidden"></userControls:LootPanel>
+        <userControls:Inventory x:Name="inv" Margin="80,265,80,139" Panel.ZIndex="3" Visibility="Hidden"></userControls:Inventory>
+
         <!--All buttons-->
-        <Button Name="frontDoorBtn" Click= "frontDoorBtn_Click" Margin="469,412,465,457"/>
-        <Button Name="exitBtn" Click="exitBtn_Click" Margin="300,834,296,8"/>
-        <Button Name="leaveBtn" Click="leaveBtn_Click" Margin="377,852,343,0"/>
-        <Button Name="leaveKitchenBtn" Click="leaveKitchenBtn_Click" Margin="377,852,343,0"/>
-        <Button Name="leaveBedroomBtn" Click ="leaveBedroomBtn_Click" Margin="377,852,343,0"/>
-        <Button Name="leaveTableBtn" Click = "leaveTableBtn_Click" Margin="377,852,343,0"/>
-        <Button Name="leaveUnderbedBtn" Click = "leaveUnderbedBtn_Click" Margin="377,852,343,0"/>
-        <Button Name="boxBtn" Click = "boxBtn_Click" Margin="152,470,274,211"/>
-        <Button Name="underbedBtn" Click = "underbedBtn_Click" Margin="536,742,274,94"/>
-        <Button Name="grabNoteBtn" Click = "grabNoteBtn_Click" Margin="144,234,110,299"/>
-        <Button Name="sideTableBtn" Click = "sideTableBtn_Click" Margin="752,566,88,299"/>
-        <Button Name="kitchenBtn" Click= "kitchenBtn_Click" Margin="245,272,662,94"/>
-        <Button Name="bedroomBtn" Click= "bedroomBtn_Click" Margin="731,272,176,94"/>
+        <!--Front-->
+        <Button Name="frontDoorBtn" Click= "frontDoorBtn_Click" Margin="469,412,465,457" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="exitBtn" Click="exitBtn_Click" Margin="300,834,296,8" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <!--Hall-->
+        <Button Name="atticBtn" Click="atticBtn_Click" Margin="512,470,405,344" Visibility="Visible" Style="{StaticResource Selection}"/>
+        <Button Name="kitchenBtn" Click= "kitchenBtn_Click" Margin="84,326,753,66" Visibility="Visible" Style="{StaticResource Selection}"/>
+        <Button Name="bedroomBtn" Click= "bedroomBtn_Click" Margin="728,429,188,162" Visibility="Visible" Style="{StaticResource Selection}"/>
+        <Button Name="leaveBtn" Click="leaveBtn_Click" Margin="451,897,363,0" Visibility="Visible" Style="{StaticResource Selection}"/>
+        <!--Kitchen-->
+        <Button Name="leaveKitchenBtn" Click="leaveKitchenBtn_Click" Margin="377,852,343,0" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <!--Bedroom-->
+        <Button Name="leaveBedroomBtn" Click ="leaveBedroomBtn_Click" Margin="377,852,343,0" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="leaveTableBtn" Click = "leaveTableBtn_Click" Margin="377,852,343,0" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="leaveUnderbedBtn" Click = "leaveUnderbedBtn_Click" Margin="377,852,343,0" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="boxBtn" Click = "boxBtn_Click" Margin="152,470,274,211" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="underbedBtn" Click = "underbedBtn_Click" Margin="536,742,274,94" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="grabNoteBtn" Click = "grabNoteBtn_Click" Margin="144,234,110,299" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <Button Name="sideTableBtn" Click = "sideTableBtn_Click" Margin="752,566,88,299" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <!--Attic-->
+        <Button Name="leaveAtticBtn" Click ="leaveAtticBtn_Click" Margin="326,834,343,0" Visibility="Hidden" Style="{StaticResource Selection}"/>
+        <!--Basement-->
+        <Button Name="leaveBasementBtn" Click ="leaveBasementBtn_Click" Margin="348,0,246,802" Visibility="Hidden" Style="{StaticResource Selection}"/>
+
     </Grid>
 </Window>

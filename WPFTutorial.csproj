@@ -10,21 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="pics\bedroom.jpg" />
-    <None Remove="pics\front.jpg" />
-    <None Remove="pics\hall.jpg" />
-    <None Remove="pics\kitchen.jpg" />
-    <None Remove="pics\table.jpg" />
-    <None Remove="pics\underbed.jpg" />
+    <Compile Remove="pics\**" />
+    <EmbeddedResource Remove="pics\**" />
+    <None Remove="pics\**" />
+    <Page Remove="pics\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="pics\bedroom.jpg" />
-    <Resource Include="pics\front.jpg" />
-    <Resource Include="pics\hall.jpg" />
-    <Resource Include="pics\kitchen.jpg" />
-    <Resource Include="pics\table.jpg" />
-    <Resource Include="pics\underbed.jpg" />
+    <None Remove="backgrounds\attic.jpg" />
+    <None Remove="backgrounds\basement.jpg" />
+    <None Remove="backgrounds\bedroom.jpg" />
+    <None Remove="backgrounds\front.jpg" />
+    <None Remove="backgrounds\hall.jpg" />
+    <None Remove="backgrounds\kitchen.jpg" />
+    <None Remove="backgrounds\lab.jpg" />
+    <None Remove="backgrounds\table.jpg" />
+    <None Remove="backgrounds\underbed.jpg" />
+    <None Remove="icons\inventoryIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +35,19 @@
 
   <ItemGroup>
     <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="backgrounds\attic.jpg" />
+    <Resource Include="backgrounds\basement.jpg" />
+    <Resource Include="backgrounds\bedroom.jpg" />
+    <Resource Include="backgrounds\front.jpg" />
+    <Resource Include="backgrounds\hall.jpg" />
+    <Resource Include="backgrounds\kitchen.jpg" />
+    <Resource Include="backgrounds\lab.jpg" />
+    <Resource Include="backgrounds\table.jpg" />
+    <Resource Include="backgrounds\underbed.jpg" />
+    <Resource Include="icons\inventoryIcon.png" />
   </ItemGroup>
 
 </Project>

@@ -18,8 +18,6 @@ G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\refint\WPFTu
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\WPFTutorial.pdb
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\WPFTutorial.genruntimeconfig.cache
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\ref\WPFTutorial.dll
-G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\TypeBox.g.cs
-G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\TypeBox.baml
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\Styles.baml
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\bin\Debug\net8.0-windows\NAudio.dll
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\bin\Debug\net8.0-windows\NAudio.Asio.dll
@@ -30,3 +28,11 @@ G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\bin\Debug\net8.0-windows\NAudio.WinFo
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\bin\Debug\net8.0-windows\NAudio.WinMM.dll
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\WPFTutorial.csproj.AssemblyReference.cache
 G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\WPFTutor.EB14E15D.Up2Date
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\WPFTutorial.sourcelink.json
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\LootPanel.g.cs
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\LootPanel.baml
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\Inventory.g.cs
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\InventoryBtn.g.cs
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\Inventory.baml
+G:\Projects\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\net8.0-windows\View\UserControls\InventoryBtn.baml

@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="View\UserControls\TypeBox.xaml.cs">
+    <Compile Update="View\UserControls\Inventory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\InventoryBtn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\LootPanel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +21,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\UserControls\TypeBox.xaml">
+    <Page Update="View\UserControls\Inventory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserControls\InventoryBtn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserControls\LootPanel.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
